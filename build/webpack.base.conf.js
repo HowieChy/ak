@@ -55,6 +55,17 @@ var webpackConfig = {
         loader: 'babel-loader',
         include: [resolve('src'), resolve('test')]
       },
+      //{
+      //  test: /\.less$/,
+      //  loader:"style-loader!css-loader!postcss-loader!less-loader",
+      //  include: [/src/]
+      //},
+      //{
+      //  test: /\.css$/,
+      //  loader:"style-loader!css-loader!postcss-loader",
+      //  include: []
+      //},
+
       {
         test: /\.(png|jpe?g|gif|svg)(\?.*)?$/,
         loader: 'url-loader',
