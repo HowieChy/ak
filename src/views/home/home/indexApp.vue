@@ -109,7 +109,8 @@ export default {
 }
 </script>
 
-<style scoped lang="less">
+<style  lang="less">
+  @import "./assets/css/index.less";
 @import "../../../assets/css/init";
 h2{
   background: orange;
