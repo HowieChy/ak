@@ -7,7 +7,7 @@
       <div class="g-info">
         <img src="./assets/images/phone.jpg" alt="">
         <h2>Howie</h2>
-        <p><em></em>余额：￥120.00</p>
+        <p><em></em>余额：￥12000.00</p>
       </div>
 
       <ul class="g-list">
@@ -137,6 +137,8 @@ export default {
       height: 1.5rem;
       border: 1px solid #d5d5d5;
       border-radius: 50%;
+      padding: 2px;
+      box-shadow: 0 3px 5px #ddd;
     }
     h2{
       font-size: 0.34rem;
@@ -197,7 +199,7 @@ export default {
       font-size: 0.3rem;
       font-weight: bold;
       width: 86%;
-      line-height: 0.4rem;
+      line-height: 0.36rem;
       height: 0.35rem;
     }
     .icon{
