@@ -5,8 +5,8 @@
       <header>个人中心</header>
 
       <div class="g-info">
-        <img src="" alt="">
-        <h2>JACK</h2>
+        <img src="./assets/images/phone.jpg" alt="">
+        <h2>Howie</h2>
         <p><em></em>余额：￥120.00</p>
       </div>
 
@@ -122,12 +122,12 @@ export default {
     text-align: center;
     font-size: 0.4rem;
     background: #ffffff;
-    border-bottom: 1px solid #ddd;
+    border-bottom: 1px solid #d5d5d5;
   }
   .g-info{
     height: 3.75rem;
     background: #fff;
-    border-bottom: 1px solid #ddd;
+    border-bottom: 1px solid #d5d5d5;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -135,12 +135,13 @@ export default {
     img{
       width: 1.5rem;
       height: 1.5rem;
-      border: 1px solid #ddd;
+      border: 1px solid #d5d5d5;
       border-radius: 50%;
     }
     h2{
       font-size: 0.34rem;
       padding:  0.15rem 0 0.35rem 0;
+      font-weight: bold;
     }
     p{
 
@@ -154,7 +155,7 @@ export default {
   .g-list{
       display: flex;
       padding: 0.6rem 0;
-      border-bottom: 1px solid #ddd;
+      border-bottom: 1px solid #d5d5d5;
       margin-bottom: 0.2rem;
       background: #fff;
       img{
@@ -175,10 +176,11 @@ export default {
       }
   }
   .g-href{
+    border-top: 1px solid #d5d5d5;
     background: #fff;
     li{
       padding:0.34rem ;
-      border-bottom: 1px solid #ddd;
+      border-bottom: 1px solid #d5d5d5;
 
     }
     a{
@@ -195,6 +197,8 @@ export default {
       font-size: 0.3rem;
       font-weight: bold;
       width: 86%;
+      line-height: 0.4rem;
+      height: 0.35rem;
     }
     .icon{
       font-size: 0.3rem;
